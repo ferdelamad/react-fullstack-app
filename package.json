@@ -2,9 +2,10 @@
   "name": "react-fullstack-app",
   "version": "1.0.0",
   "description": "Boilerplate for a full-stack app using React as framework.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/ferdelamad/react-fullstack-app/issues"
   },
-  "homepage": "https://github.com/ferdelamad/react-fullstack-app#readme"
+  "homepage": "https://github.com/ferdelamad/react-fullstack-app#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
 }
