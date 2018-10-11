@@ -1,0 +1,26 @@
+{
+  "name": "react-fullstack-app",
+  "version": "1.0.0",
+  "description": "Boilerplate for a full-stack app using React as framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferdelamad/react-fullstack-app.git"
+  },
+  "keywords": [
+    "React",
+    "boilerplate",
+    "react",
+    "fullstack",
+    "app"
+  ],
+  "author": "Fernando De La Madrid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferdelamad/react-fullstack-app/issues"
+  },
+  "homepage": "https://github.com/ferdelamad/react-fullstack-app#readme"
+}
