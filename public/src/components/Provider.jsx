@@ -8,14 +8,22 @@ export default class Provider extends Component {
     super(props);
     this.state = {
       name01: "I'm the First Component!",
-      name02: "I'm the Second Component!"
+      name02: "I'm the Second Component!",
+      counter: 0
     };
   }
 
   render() {
     const state = this.state;
     return (
-      <AppContext.Provider value={{ state }}>
+      <AppContext.Provider
+        value={{
+          state,
+          incrementCounter: () => {
+            this.setState({ counter: this.state.counter + 1 });
+          }
+        }}
+      >
         {this.props.children}
       </AppContext.Provider>
     );
